@@ -1,0 +1,134 @@
+/ext/ [FLIPPER SD (Unleashed CFW)]
+│
+├── apps/                           ## Put all your `.fap` files in one of these appropriate subfolders.
+│   ├── Games/
+│   ├── GPIO/
+│   ├── Media/
+│   ├── Main/
+│   ├── Misc/
+│   ├── NFC/
+│   ├── Settings/
+│   ├── Sub-GHz/
+│   └── Tools/
+│
+├── apps_assets
+│   ├── ble_spam
+│   ├── crypto_dict
+│   └── barcode_app
+│
+├── apps_data
+│   ├── barcodes
+│   ├── btremote_kodi
+│   ├── flipper_xremote
+│   └── subghz
+│
+├── apps_manifest
+│   └── *.fim                       # each application *.fap has a manifest *.fim
+│
+├── badusb                          ## Put Rubber Ducky scripts here
+│   └── demo_windows.txt            # Windows sample script
+│
+├── dolphin
+│   ├── L1_Furippa1_128x64
+│   │   ├── frame_x.bm              # Animation frame
+│   │   └── meta.txt                # Set of rules for playing frames
+│   └── manifest.txt                # Describes animation selection parameters
+│
+├── ibtnfuzzer
+│   ├── example_uids_cyfral.txt
+│   ├── example_uids_dallas.txt
+│   └── example_uids_metakom.txt
+│
+├── iButton (1-Wire)
+│   ├── Cyfral.ibtn                 # Cyfral key
+│   ├── Dallas.ibtn                 # Dallas key
+│   └── Metakom.ibtn                # Metakom key
+│
+├── infrared (IR)
+│   ├── TV_bedroom.ir               # Samsung remote
+│   ├── Apple_tv.ir                 # Apple tv remote
+│   └── assets                      # Signal library folders
+│       └── tv.ir
+│
+├── lfrfid (RFID)
+│   ├── Em_marine.rfid              # EM4100 sample key 
+│   ├── Hid_prox.rfid               # H10301 sample key EM4100
+│   └── Indala.rfid                 # I40134 sample key
+│
+├── music_player                    ## List of tunes to play
+│   ├── Arcede_Tones                # Sample tunes folder
+│   └── Marble_Machine.fmf          # Sample tune
+│
+├── nfc
+│   ├── Desfire.nfc                 # Desfire card
+│   ├── Ntag_213.nfc                # Ntag_213 card
+│   ├── Ntag_216.nfc                # Ntag_216 card
+│   ├── Classik_1k.nfc              # Classik_1k card
+│   ├── RocketBank.nfc              # Banking card
+│   ├── UID.nfc                     # Card with only UID data
+│   └── assets                      # NFC libraries
+│       ├── aid.nfc
+│       ├── country_code.nfc
+│       ├── currency_code.nfc
+│       └── mf_classic_dict.nfc
+│
+├── picopass                        ## App included w/ new CFW Firmware
+│   ├── assets
+│   │  └── iclass_elite_dict.txt
+│   ├── iclass_decryptionkey.bin
+│   └── iclass_key.bin
+│
+├── subghz                          ## This folder is for all SubGHz saved captures
+│   ├── ****.sub                    # Captured packet
+│   ├── ****_raw.sub                # Recorded raw signal
+│   ├── Jamming_SubGHz              ## Sub-Folder containing scripts
+│   │   ├── Jam_xxx.xx.sub          # ONLY use on your own devices!! (doesn't work good anyway, so don't get hopeful.)
+│   │   └── Jam_xxx.xx.sub
+│   ├── ****_raw.sub                # Recorded raw signal
+│   └── assets
+│       ├── dangerous_settings
+│       ├── keeloq_mfcodes
+│       ├── keeloq_mfcodes_user
+│       ├── nice_flor_s
+│       ├── last_subghz.settings
+│       └── setting_user.example
+│
+├── subghz_remote
+│   └── *.txt                       # remote file for `Sub-GHz Remote` app.
+│
+├── subplaylist
+│   ├── Bruteforce_Gen
+│   ├── CAME_12Bit_BF
+│   └── Tesla
+│
+├── swd_scripts
+│   └── *.swd
+│
+├── u2f
+│   ├── assets
+│   │   ├── cert.der                # Public certificate
+│   │   └── cert_key.u2f            # Private key
+│   ├── cnt.u2f # Key counter
+│   └── key.u2f # Device key
+│
+├── unirf                           ## Place scripts for SubGHz UniRF here
+│   ├── *.txt                       # example scripts for UniRF device.
+│   └── **.txt
+│
+├── update                          ## Example Update Folders
+│   ├── f7-update-0.101.2           # Example of Stable Release FW folder
+│   └── f7-update-unlshd-073        # Example Of Unleashed FW Release Folder
+│       ├── backup.tar              # Flipper configuration snapshot
+│       ├── resources.tar 
+│       ├── firmware.dfu
+│       ├── radio.bin
+│       ├── splash.bin
+│       ├── updater.bin
+│       └── update.fuf     
+│
+├── wav_player
+│   └── example.wav                 # WAV files to play
+│
+├── Manifest                        # Resource files list
+├── rwfiletest.bin                  # Created after running SD benchmark
+└── favorites.txt                   # List of items displayed in Favorites
